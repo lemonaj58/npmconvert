@@ -1,0 +1,6 @@
+coverage
+node_modules
+npm-debugg.log
+.env
+.DS_Store
+build
