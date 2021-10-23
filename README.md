@@ -9,31 +9,24 @@ Conversion is used for converting measurments. current conversions include;
 
 ## Installation
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
-
+use npm, and use npm install npmconvert
 ```bash
-pip install foobar
+npm install npmconvert
 ```
 
-## Usage
+## Usage for nodeJS
 
-```python
-import foobar
+```javascript
+//for nodeJS backend
+let Conversions = require('./lib/index.js')
+Conversions.milesToKM(1) //1.61
+Conversions.milesToKM(1, 0) //2
 
-# returns 'words'
-foobar.pluralize('word')
-
-# returns 'geese'
-foobar.pluralize('goose')
-
-# returns 'phenomenon'
-foobar.singularize('phenomena')
+//for ES5 front end
+import Conversions from './dist/index.js'
+Conversions.milesToKM(1) //1.61
+Conversions.milesToKM(1, 0) //2
 ```
-
-## Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
-
-Please make sure to update tests as appropriate.
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)

@@ -1,16 +1,22 @@
 {
   "name": "npmconvert",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Conversion is used for converting measurments. current conversions include; * feet * miles * kilometers * meters * milimeters",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest index.test.js"
   },
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/lemonaj58/npmconvert"
-    },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lemonaj58/npmconvert"
+  },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/cli": "^7.15.7",
+    "@babel/core": "^7.15.8",
+    "@babel/preset-env": "^7.15.8"
+  }
 }

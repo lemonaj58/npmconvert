@@ -1,0 +1,5 @@
+v1.0.2 - updated README.md, also made all return values numbers.
+
+v1.0.1 - convert package to make it ES5 compatable
+
+1.0.0 - upload package and publish to npm
